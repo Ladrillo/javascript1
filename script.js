@@ -94,3 +94,13 @@ var car = {
   }
 };
 // 100.000 cars
+
+// ARRAYS
+// much simpler than objects
+var myArr = ['a', 'b'];
+var first = myArr[0];
+// much more complicated than objects MANY BUIT-IN METHODS
+var arr = [];
+arr[0] = 'somthing';
+arr.push('else'); // PUSH MUTATES
+var arrWithMoreStuff = arr.concat('yet'); // CONCAT DOES NOT
