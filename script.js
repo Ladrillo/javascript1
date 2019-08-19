@@ -82,3 +82,14 @@ var theName = obj.name; // dot notation
 var theNameReally = obj["name"]; // silly!
 var theSpace = obj['the space']; // not silly at all!
 var theSpaceAnotherWay = obj[myPropName]; // same thing
+
+// mini-state machines --> object
+var car = {
+  odometer: 0,
+  drive: function () {
+    // returns nothing
+    // CAUSE A SIDE EFFECT
+    // increase the odometer
+    this.odometer = 50;
+  }
+};
