@@ -3,3 +3,4 @@
 - Launch the development server by running `npm start`.
 - See inside the package.json file what the `start` script actually does.
 - Verify that the script file is correctly linked to the html.
+- Check the `.gitignore` file. What's excluded from source control and why?
