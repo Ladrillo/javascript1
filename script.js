@@ -48,6 +48,7 @@ const funnyFunc = function () {
 const sadFunc = () => {
   console.log('meh');
   console.log('foo');
+  // we need a return keyword if we want to return!
 };
 // `sadFunc`   // function object
 // `sadFunc()` // undefined
