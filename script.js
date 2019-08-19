@@ -57,8 +57,11 @@ const sadFunc = () => {
 // no need for curlies and a body
 // no need to return keyword
 const compact = () => 6;
-// `compact`
-// compact()
+// `compact`   // function object
+// `compact()` // 6
+const goo = () => { }
+// `goo`    // function object
+// `goo()`  // undefined
 const meh = () => ({})
-// meh    // function
-// meh()  // empty object
+// `meh`    // function
+// `meh()`  // empty object
