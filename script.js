@@ -28,11 +28,11 @@ function myFunc() {
 myFunc();
 
 // what is the value of `myFunc`  is function (object)
-// what is the value of `myFunc()` whatever the function returns
+// what is the value of `myFunc()` whatever the function returns (7)
 
 function anotherOne() {
   console.log('hello');
-  return undefined;
 }
 // 'anotherOne' value is a function
 // 'anotherOne()' value undefined
+
