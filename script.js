@@ -65,3 +65,18 @@ const goo = () => { }
 const meh = () => ({})
 // `meh`    // function
 // `meh()`  // empty object
+
+// OBJECT
+// unordered list of key-value pairs --> dictionary
+var obj = {
+  name: 'Luke',
+  age: 22,
+  'the space': 6,
+};
+
+var myPropName = 'the space';
+
+var theName = obj.name;
+var theNameReally = obj['name'];
+var theSpace = obj['the space'];
+var theSpaceAnotherWay = obj[myPropName];
