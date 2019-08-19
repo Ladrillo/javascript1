@@ -60,5 +60,5 @@ const compact = () => 6;
 // `compact`
 // compact()
 const meh = () => ({})
-// meh  // function
+// meh    // function
 // meh()  // empty object
