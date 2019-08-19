@@ -40,7 +40,24 @@ function anotherOne() {
 // FUNCTION EXPRESSION
 const funnyFunc = function () {
   return true || false;
-}
+};
 
 // `funnyFunc`    // function object
 // `funnyFunc()`  // true
+
+const sadFunc = () => {
+  console.log('meh');
+  console.log('foo');
+};
+// `sadFunc`   // function object
+// `sadFunc()` // undefined
+
+// no need for function keyword
+// no need for curlies and a body
+// no need to return keyword
+const compact = () => 6;
+// `compact`
+// compact()
+const meh = () => ({})
+// meh  // function
+// meh()  // empty object
