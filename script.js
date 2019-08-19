@@ -19,4 +19,20 @@ c.prop = 'nice';
 // evaluated down to a value
 
 
-console.log('hello');
+// function declaration
+function myFunc() {
+  return 7;
+}
+
+// function invocation
+myFunc();
+
+// what is the value of `myFunc`  is function (object)
+// what is the value of `myFunc()` whatever the function returns
+
+function anotherOne() {
+  console.log('hello');
+  return undefined;
+}
+// 'anotherOne' value is a function
+// 'anotherOne()' value undefined
