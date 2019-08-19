@@ -76,6 +76,8 @@ var obj = {
 
 var myPropName = 'the space';
 
+// pulling the values of some keys, and shoving
+// them inside of variables
 var theName = obj.name;
 var theNameReally = obj['name'];
 var theSpace = obj['the space'];
