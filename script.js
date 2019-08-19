@@ -104,3 +104,14 @@ var arr = [];
 arr[0] = 'somthing';
 arr.push('else'); // PUSH MUTATES
 var arrWithMoreStuff = arr.concat('yet'); // CONCAT DOES NOT
+
+// HUGE ARRAY 
+// SORTIN BY SOME CRITERIA
+// ELIMININATE CERTAIN ELEMENTS
+// ADD SOME ELEMENT
+let array
+let sortedArray // non destructive op on array
+let filteredArray // non destructive op on sortedArray
+let withExtra // non destructive op on filteredArray
+
+// bad approach
