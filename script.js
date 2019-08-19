@@ -90,6 +90,7 @@ var car = {
     // returns nothing
     // CAUSE A SIDE EFFECT
     // increase the odometer
-    this.odometer = 50;
+    this.odometer = this.odometer + 50;
   }
 };
+// 100.000 cars
