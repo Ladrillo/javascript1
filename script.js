@@ -30,9 +30,17 @@ myFunc();
 // what is the value of `myFunc`  is function (object)
 // what is the value of `myFunc()` whatever the function returns (7)
 
+// FUNCTION DECLARATION
 function anotherOne() {
   console.log('hello');
 }
 // 'anotherOne' value is a function
 // 'anotherOne()' value undefined
 
+// FUNCTION EXPRESSION
+const funnyFunc = function () {
+  return true || false;
+}
+
+// `funnyFunc`    // function object
+// `funnyFunc()`  // true
