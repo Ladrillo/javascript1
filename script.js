@@ -113,5 +113,3 @@ let array
 let sortedArray // non destructive op on array
 let filteredArray // non destructive op on sortedArray
 let withExtra // non destructive op on filteredArray
-
-// bad approach
