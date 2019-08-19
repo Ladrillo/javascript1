@@ -71,14 +71,14 @@ const meh = () => ({})
 var obj = {
   name: 'Luke',
   age: 22,
-  'the space': 6,
+  "the space": 6,
 };
 
 var myPropName = 'the space';
 
 // pulling the values of some keys, and shoving
 // them inside of variables
-var theName = obj.name;
-var theNameReally = obj['name'];
-var theSpace = obj['the space'];
-var theSpaceAnotherWay = obj[myPropName];
+var theName = obj.name; // dot notation
+var theNameReally = obj["name"]; // silly!
+var theSpace = obj['the space']; // not silly at all!
+var theSpaceAnotherWay = obj[myPropName]; // same thing
