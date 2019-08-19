@@ -12,7 +12,11 @@ b = false;
 // but if it contains a composite value like an object
 // or an array, we may mutate it
 const c = {};
-c.prop = 'nice'
+c.prop = 'nice';
+
+// THE VALUES OF EXPRESSIONS
+// an expression is a thing which might be 
+// evaluated down to a value
 
 
 console.log('hello');
